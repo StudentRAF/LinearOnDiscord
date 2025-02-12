@@ -1,0 +1,76 @@
+html {
+	font-family: 'Roboto', sans-serif;
+	padding: 10%;
+	line-height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	max-width: 576px;
+	font-family: -apple-system, sans-serif;
+	background: #121314;
+	color: #D0D1D2;
+}
+
+label {
+	padding-left: 6px;
+}
+
+input {
+	font-family: 'Roboto', sans-serif;
+	border: none;
+	background: #292A2B;
+	border-bottom: 1px solid #606162;
+	display: inline-block;
+	border-radius: 12px;
+	padding: 12px 8px 8px 12px;
+	color: #f0f1f2;
+	outline: none;
+}
+
+input::placeholder {
+	color: #808182;
+}
+
+button {
+	border: none;
+	border-radius: 12px;
+	background-color: #3e42af;
+	color: #ededed;
+	width: fit-content;
+	padding: 12px 24px 12px 24px;
+	font-weight: 500;
+	font-size: 14px;
+	transition-property: background-color;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 150ms;
+}
+
+button:hover {
+	background-color: #5054d9;
+	cursor: pointer;
+}
+
+.form-container {
+	margin-top: 16px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 16px;
+	justify-items: center;
+
+}
+
+.form-item {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	gap: 8px;
+}
+

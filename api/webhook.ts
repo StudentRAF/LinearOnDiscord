@@ -9,7 +9,7 @@ import { Action, Model } from '../lib/schema/utils';
 const DISCORD_WEBHOOKS_URL = 'https://discord.com/api/webhooks';
 
 const WEBHOOK_USERNAME = 'Linear';
-const WEBHOOK_AVATAR_URL = 'https://ldw.screfy.com/static/linear.png';
+const WEBHOOK_AVATAR_URL = 'https://linear-on-discord.vercel.app/static/linear.png';
 
 const LINEAR_BASE_URL = 'https://linear.app';
 const LINEAR_COLOR = '#5E6AD2';
